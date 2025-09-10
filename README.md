@@ -52,20 +52,21 @@ Welcome to **Kwii** — a modern, expressive programming language designed for c
 
     ```sh
     cd src
-    javac -cp src Kwii.java
+    javac Kwii.java
     ```
 
 3. **Run Kwii**
 
+    In the src directory:
      ```sh
     
     # Run a kwii script
-    java -cp src Kwii path/to/your_script.kwii
+    java Kwii path/to/your_script.kwii
     ```
 
     ```sh
     # Start the kwii REPL
-    java -cp src Kwii
+    java Kwii
      ```
 
 ---
