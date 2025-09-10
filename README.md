@@ -28,6 +28,14 @@ Welcome to **kwii** — a modern, expressive programming language designed for c
 
 ## 🚀 Installation
 
+### Prerequisites
+
+- **Java 1.8 or higher**  
+    Ensure you have Java version 1.8 or above installed. You can check your version with:
+    ```sh
+    java -version
+    ```
+
 ### Steps
 
 1. **Clone the Repository**
@@ -38,7 +46,13 @@ Welcome to **kwii** — a modern, expressive programming language designed for c
 
 2. **Run kwii**
      ```sh
-     python kwii.py
+    ```sh
+    # Run a kwii script
+    java -cp src Kwii path/to/your_script.kwii
+
+    # Start the kwii REPL
+    java -cp src Kwii
+    ```
      ```
 
 ---
