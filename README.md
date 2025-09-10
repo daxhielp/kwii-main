@@ -1,6 +1,6 @@
 # kwii
 
-Welcome to **Kwii** — a modern, expressive programming language designed for clarity, productivity, and fun. kwii blends familiar syntax with powerful features, making it easy to learn for newcomers and enjoyable for experienced developers.
+Welcome to **Kwii (ˈkiː.wiː)** — a modern, expressive programming language designed for clarity, productivity, and fun. kwii blends familiar syntax with powerful features, making it easy to learn for newcomers and enjoyable for experienced developers.
 
 ---
 
