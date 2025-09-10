@@ -44,14 +44,23 @@ Welcome to **kwii** — a modern, expressive programming language designed for c
      cd kwii-main
      ```
 
-2. **Run kwii**
+2. **Version Specifics**
+
+        **If using Java 11 or higher, you can ignore this**
+
+        Create the compiler files.
+        ```
+        javac -cp src Kwii.java
+        ```
+
+3. **Run kwii**
+
      ```sh
     
     # Run a kwii script
     java -cp src Kwii path/to/your_script.kwii
-
-    
     ```
+
     ```sh
     # Start the kwii REPL
     java -cp src Kwii
