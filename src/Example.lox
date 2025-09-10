@@ -1,0 +1,55 @@
+/*
+  Example.kwii 
+
+  Display of core functionality of the Kwii programming language
+*/
+
+// Class definition with fields and methods
+class Counter {
+  init(start) {
+     this.value = start;
+  }
+
+  increment() {
+     this.value = this.value + 1;
+  }
+
+  getValue() {
+     return this.value;
+  }
+}
+
+// Function demonstrating local scope
+fun printCount(counter, times) {
+  var i = 0;
+  while (i < times) {
+     print counter.getValue();
+     counter.increment();
+     i = i + 1;
+  }
+}
+
+// Main program
+var c = Counter(10);
+printCount(c, 5);
+
+// Demonstrate block scope
+{
+  var message = "Inside block";
+  print message;
+}
+// Uncommenting the next line would cause an error (message is out of scope)
+// print message;
+
+// Demonstrate variable assignment and arithmetic
+var x = 2;
+var y = 3;
+var z = x * y + 5;
+print z; // Should print 11
+
+// Demonstrate if/else
+if (z > 10) {
+  print "z is greater than 10";
+} else {
+  print "z is 10 or less";
+}
