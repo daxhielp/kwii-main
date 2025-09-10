@@ -50,7 +50,8 @@ Welcome to **Kwii** — a modern, expressive programming language designed for c
 
     Create the compiler files.
 
-    ```console
+    ```sh
+    cd src
     javac -cp src Kwii.java
     ```
 
