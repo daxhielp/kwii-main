@@ -49,7 +49,7 @@ Welcome to **kwii** — a modern, expressive programming language designed for c
         **If using Java 11 or higher, you can ignore this**
 
         Create the compiler files.
-        ```
+        ```sh
         javac -cp src Kwii.java
         ```
 
