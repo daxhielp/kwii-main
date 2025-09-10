@@ -17,13 +17,6 @@ Welcome to **Kwii (ˈkiː.wiː)** — a modern, expressive programming language 
 
 - **Flexible Control Flow**  
     Supports `if`, `else`, `while`, `for`, and more.
-
-- **Rich Standard Library**  
-    Includes utilities for strings, collections, math, and file I/O.
-
-- **Cross-Platform**  
-    Runs on Windows, macOS, and Linux.
-
 ---
 
 ## 🚀 Installation
@@ -117,4 +110,4 @@ for i in range(5):
 
 - **Python:** Indentation-based blocks, dynamic typing, and simple syntax.
 - **JavaScript:** First-class functions, flexible variable assignment.
-- **Ruby:** Readable, expressive code with minimal punctuation.s
+- **Ruby:** Readable, expressive code with minimal punctuations
