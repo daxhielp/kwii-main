@@ -46,10 +46,11 @@ Welcome to **kwii** — a modern, expressive programming language designed for c
 
 2. **Run kwii**
      ```sh
-    ```sh
+    
     # Run a kwii script
     java -cp src Kwii path/to/your_script.kwii
 
+    
     # Start the kwii REPL
     java -cp src Kwii
     ```
