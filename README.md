@@ -1,0 +1,102 @@
+# kwii
+
+Welcome to **kwii** — a modern, expressive programming language designed for clarity, productivity, and fun. kwii blends familiar syntax with powerful features, making it easy to learn for newcomers and enjoyable for experienced developers.
+
+---
+
+## ✨ Features
+
+- **Clean, Readable Syntax**  
+    Inspired by Python and JavaScript, kwii emphasizes readability and minimal boilerplate.
+
+- **Dynamic Typing**  
+    Write code quickly without worrying about type declarations.
+
+- **First-Class Functions**  
+    Functions are objects and can be passed, returned, and assigned.
+
+- **Flexible Control Flow**  
+    Supports `if`, `else`, `while`, `for`, and more.
+
+- **Rich Standard Library**  
+    Includes utilities for strings, collections, math, and file I/O.
+
+- **Cross-Platform**  
+    Runs on Windows, macOS, and Linux.
+
+---
+
+## 🚀 Installation
+
+### Steps
+
+1. **Clone the Repository**
+     ```sh
+     git clone https://github.com/daxhielp/kwii-main.git
+     cd kwii-main
+     ```
+
+2. **Run kwii**
+     ```sh
+     python kwii.py
+     ```
+
+---
+
+## 📝 Basic Syntax
+
+kwii is designed to feel familiar if you know Python, JavaScript, or Ruby.
+
+### Hello World
+
+```kwii
+print("Hello, world!")
+```
+
+### Variables
+
+```kwii
+x = 42
+name = "kwii"
+```
+
+### Functions
+
+```kwii
+def greet(who):
+        print("Hello, " + who + "!")
+```
+
+### Control Flow
+
+```kwii
+if x > 10:
+        print("x is big")
+else:
+        print("x is small")
+```
+
+### Loops
+
+```kwii
+for i in range(5):
+        print(i)
+```
+
+---
+
+## 🔗 Similarities to Other Languages
+
+- **Python:** Indentation-based blocks, dynamic typing, and simple syntax.
+- **JavaScript:** First-class functions, flexible variable assignment.
+- **Ruby:** Readable, expressive code with minimal punctuation.
+
+---
+
+## 📄 License
+
+kwii is open source under the [MIT License](LICENSE).
+
+---
+
+Happy coding with kwii! 🎉
