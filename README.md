@@ -46,12 +46,13 @@ Welcome to **kwii** — a modern, expressive programming language designed for c
 
 2. **Version Specifics**
 
-        **If using Java 11 or higher, you can ignore this**
+    **If using Java 11 or higher, you can ignore this**
 
-        Create the compiler files.
-        ```sh
-        javac -cp src Kwii.java
-        ```
+    Create the compiler files.
+
+    ```console
+    javac -cp src Kwii.java
+    ```
 
 3. **Run kwii**
 
