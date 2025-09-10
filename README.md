@@ -1,6 +1,6 @@
 # kwii
 
-Welcome to **kwii** — a modern, expressive programming language designed for clarity, productivity, and fun. kwii blends familiar syntax with powerful features, making it easy to learn for newcomers and enjoyable for experienced developers.
+Welcome to **Kwii** — a modern, expressive programming language designed for clarity, productivity, and fun. kwii blends familiar syntax with powerful features, making it easy to learn for newcomers and enjoyable for experienced developers.
 
 ---
 
@@ -54,7 +54,7 @@ Welcome to **kwii** — a modern, expressive programming language designed for c
     javac -cp src Kwii.java
     ```
 
-3. **Run kwii**
+3. **Run Kwii**
 
      ```sh
     
@@ -71,7 +71,7 @@ Welcome to **kwii** — a modern, expressive programming language designed for c
 
 ## 📝 Basic Syntax
 
-kwii is designed to feel familiar if you know Python, JavaScript, or Ruby.
+Kwii is designed to feel familiar if you know Python, JavaScript, or Ruby.
 
 ### Hello World
 
@@ -90,23 +90,23 @@ name = "kwii"
 
 ```kwii
 def greet(who):
-        print("Hello, " + who + "!")
+    print("Hello, " + who + "!")
 ```
 
 ### Control Flow
 
 ```kwii
 if x > 10:
-        print("x is big")
+    print("x is big")
 else:
-        print("x is small")
+    print("x is small")
 ```
 
 ### Loops
 
 ```kwii
 for i in range(5):
-        print(i)
+    print(i)
 ```
 
 ---
@@ -115,14 +115,4 @@ for i in range(5):
 
 - **Python:** Indentation-based blocks, dynamic typing, and simple syntax.
 - **JavaScript:** First-class functions, flexible variable assignment.
-- **Ruby:** Readable, expressive code with minimal punctuation.
-
----
-
-## 📄 License
-
-kwii is open source under the [MIT License](LICENSE).
-
----
-
-Happy coding with kwii! 🎉
+- **Ruby:** Readable, expressive code with minimal punctuation.s
