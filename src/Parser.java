@@ -1,38 +1,77 @@
-// Syntax
+// Parser.java
+    //
+    // This class implements a recursive descent parser for the language.
+    // It converts a list of tokens into an abstract syntax tree (AST) of statements and 
+    //
+    // Usage:
+    //   Parser parser = new Parser(tokens);
+    //   List<Stmt> statements = parser.parse();
+    //
+    // Preconditions:
+    //   - The input token list must be valid and produced by the scanner.
+    // Postconditions:
+    //   - Returns a list of statements representing the parsed program.
+    //
 
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+/**
+ * Parser.java
+ *
+ * Implements a recursive descent parser for the language.
+ * Converts a list of tokens into an abstract syntax tree (AST) of statements and expressions.
+ */
 public class Parser {
+    /**
+     * Exception class for parse errors (used for control flow).
+     */
     private static class ParseError extends RuntimeException {}
 
+    /**
+     * The list of tokens to parse.
+     */
     private final List<Token> tokens;
+    /**
+     * The current index in the token list.
+     */
     private int current = 0;
 
+    /**
+     * Constructs a new Parser for the given list of tokens.
+     * @param tokens The list of tokens to parse.
+     * Preconditions: tokens must not be null.
+     * Postconditions: Parser is initialized and ready to parse.
+     */
     Parser(List<Token> tokens) {
         this.tokens = tokens;
     }
 
-    // program        → declaration* EOF ;
+    /**
+     * Parses the entire token list into a list of statements (the program AST).
+     * @return List of statements representing the parsed program.
+     */
     List<Stmt> parse() {
         List<Stmt> statements = new ArrayList<>();
-
         while (!isAtEnd()) {
             statements.add(declaration());
         }
-
         return statements;
     }
 
-    /*
-     * expression  → equality ;
+    /**
+     * Parses an expression (entry point for expression parsing).
+     * @return The parsed expression AST node.
      */
     private Expr expression() {
         return assignment();
     }
 
-    // declaration → varDecl | statement ;
+    /**
+     * Parses a declaration (variable, function, or class) or a statement.
+     * @return The parsed statement AST node, or null if error recovery was needed.
+     */
     private Stmt declaration() {
         try {
             if (match(TokenType.CLASS)) return classDeclaration();
