@@ -71,37 +71,41 @@ Kwii is designed to feel familiar if you know Python, JavaScript, or Ruby.
 ### Hello World
 
 ```kwii
-print("Hello, world!")
+print "Hello, world!";
 ```
 
 ### Variables
 
 ```kwii
-x = 42
-name = "kwii"
+var x = 42;
+var name = "kwii";
 ```
 
 ### Functions
 
 ```kwii
-def greet(who):
-    print("Hello, " + who + "!")
+fun greet(who) {
+    print "Hello, " + who + "!";
+}
 ```
 
 ### Control Flow
 
 ```kwii
-if x > 10:
-    print("x is big")
-else:
-    print("x is small")
+if (x > 10) {
+    print "x is big";
+} else {
+    print "x is small";
+}
+
 ```
 
 ### Loops
 
 ```kwii
-for i in range(5):
-    print(i)
+for (int i = 0; i < 5; i = i + 1) {
+    print i;
+}
 ```
 
 ---
@@ -110,4 +114,4 @@ for i in range(5):
 
 - **Python:** Indentation-based blocks, dynamic typing, and simple syntax.
 - **JavaScript:** First-class functions, flexible variable assignment.
-- **Ruby:** Readable, expressive code with minimal punctuations
+- **Ruby:** Readable, expressive code with minimalistic inheritance
