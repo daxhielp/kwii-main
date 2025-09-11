@@ -1,5 +1,7 @@
 # kwii
 
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/927580e3-59ba-438b-ab48-c79b9f1d65cf" />
+
 Welcome to **Kwii (ˈkiː.wiː)** — a modern, expressive programming language designed for clarity, productivity, and fun. kwii blends familiar syntax with powerful features, making it easy to learn for newcomers and enjoyable for experienced developers.
 
 ---
