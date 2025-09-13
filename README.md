@@ -94,21 +94,6 @@ fun greet(who) {
 ### Classes
 
 ```kwii
-class Tick > Counter {
-  init(start) {
-     print "one";
-  }
-
-  push() {
-     super.increment();
-  }
-
-}
-```
-
-### Inheritance
-
-```kwii
 class Counter {
   init(start) {
      this.value = start;
@@ -121,6 +106,22 @@ class Counter {
   getValue() {
      return this.value;
   }
+}
+
+```
+
+### Inheritance
+
+```kwii
+class Tick > Counter {
+  init(start) {
+     print "one";
+  }
+
+  push() {
+     super.increment();
+  }
+
 }
 ```
 
