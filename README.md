@@ -106,7 +106,7 @@ class Tick > Counter {
 }
 ```
 
-### Classes
+### Inheritance
 
 ```kwii
 class Counter {
