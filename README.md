@@ -91,6 +91,39 @@ fun greet(who) {
 }
 ```
 
+### Classes
+
+```kwii
+class Tick > Counter {
+  init(start) {
+     print "one";
+  }
+
+  push() {
+     super.increment();
+  }
+
+}
+```
+
+### Classes
+
+```kwii
+class Counter {
+  init(start) {
+     this.value = start;
+  }
+
+  increment() {
+     this.value = this.value + 1;
+  }
+
+  getValue() {
+     return this.value;
+  }
+}
+```
+
 ### Control Flow
 
 ```kwii
